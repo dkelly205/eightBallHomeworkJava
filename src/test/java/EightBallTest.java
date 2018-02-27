@@ -9,6 +9,8 @@ import static org.junit.Assert.assertTrue;
 public class EightBallTest {
 
     private EightBall eightBall;
+    //private ArrayList<String> results;
+    //private String randomAnswer;
 
     @Before
     public void before(){
@@ -21,10 +23,12 @@ public class EightBallTest {
     }
 
 
+
+
     @Test
     public void canGetRandomAnswer(){
-        ArrayList results = eightBall.getAnswers();
-        String randomAnswer = eightBall.getRandomAnswer();
+        ArrayList results = eightBall.getAnswers(); //these can also be set as variables at the top to be used through the whole class
+        String randomAnswer = eightBall.getRandomAnswer(); // same as above - if you look at the top in comments will be example
         assertTrue(results.contains(randomAnswer));
     }
 
