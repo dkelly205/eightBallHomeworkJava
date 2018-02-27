@@ -27,6 +27,10 @@ public class EightBall {
         return this.answers.size();
     }
 
+    public void remove(String answer){
+        this.answers.remove(answer);
+    }
+
 
 
 }

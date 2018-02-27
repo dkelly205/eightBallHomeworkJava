@@ -36,5 +36,11 @@ public class EightBallTest {
         assertEquals(6, eightBall.getAnswersCount());
     }
 
+    @Test
+    public void canRemoveAnswer(){
+        eightBall.remove("You will win the lottery");
+        assertEquals(3, eightBall.getAnswersCount());
+    }
+
 
 }
