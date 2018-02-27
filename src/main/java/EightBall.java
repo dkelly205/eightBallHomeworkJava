@@ -31,6 +31,15 @@ public class EightBall {
         this.answers.remove(answer);
     }
 
+//    public void removeAnswer(String answer){
+//        for (int i =0; i < this.answers.size(); i++){
+//            if(answers.get(i) == answer){
+//                this.answers.remove(i);
+//                break;
+//            }
+//        }
+//    }
+
 
 
 }
